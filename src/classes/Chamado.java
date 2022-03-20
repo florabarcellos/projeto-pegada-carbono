@@ -42,86 +42,84 @@ public class Chamado implements IChamado {
 
 	}
 
-	public Number getId() {
+	private Number getId() {
 		return id;
 	}
 
-	public String getStatus() {
+	private String getStatus() {
 		return status;
 	}
 
-	public Colaborador getColaborador() {
+	private Colaborador getColaborador() {
 		return colaborador;
 	}
 
-	public Veiculo getVeiculo() {
+	private Veiculo getVeiculo() {
 		return veiculo;
 	}
 
-	public String getEndereco() {
+	private String getEndereco() {
 		return endereco;
 	}
 
-	public String getDetalhes() {
+	private String getDetalhes() {
 		return detalhes;
 	}
 
-	public Boolean getConcluido() {
+	private Boolean getConcluido() {
 		return concluido;
 	}
 
-	public Number getDistancia() {
+	private Number getDistancia() {
 		return distancia;
 	}
 
-	public Date getData_abertura() {
+	private Date getData_abertura() {
 		return data_abertura;
 	}
 
-	public Number getCo2_emitido() {
+	private Number getCo2_emitido() {
 		return co2_emitido;
 	}
 
-	public void setId(Number id) {
+	private void setId(Number id) {
 		this.id = id;
 	}
 
-	public void setStatus(String status) {
+	private void setStatus(String status) {
 		this.status = status;
 	}
 
-	public void setColaborador(Colaborador colaborador) {
+	private void setColaborador(Colaborador colaborador) {
 		this.colaborador = colaborador;
 	}
 
-	public void setVeiculo(Veiculo veiculo) {
+	private void setVeiculo(Veiculo veiculo) {
 		this.veiculo = veiculo;
 	}
 
-	public void setEndereco(String endereco) {
+	private void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
 
-	public void setDetalhes(String detalhes) {
+	private void setDetalhes(String detalhes) {
 		this.detalhes = detalhes;
 	}
 
-	public void setConcluido(Boolean concluido) {
+	private void setConcluido(Boolean concluido) {
 		this.concluido = concluido;
 	}
 
-	public void setDistancia(Number distancia) {
+	private void setDistancia(Number distancia) {
 		this.distancia = distancia;
 	}
 
-	public void setData_abertura(Date data_abertura) {
+	private void setData_abertura(Date data_abertura) {
 		this.data_abertura = data_abertura;
 	}
 
-	public void setCo2_emitido(Number co2_emitido) {
+	private void setCo2_emitido(Number co2_emitido) {
 		this.co2_emitido = co2_emitido;
 	}
-
-	
 
 }

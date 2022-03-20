@@ -19,54 +19,52 @@ public class Veiculo implements IVeiculo {
 		return info;
 	}
 
-	public Number getId() {
+	private Number getId() {
 		return id;
 	}
 
-	public String getModelo() {
+	private String getModelo() {
 		return modelo;
 	}
 
-	public String getAno() {
+	private String getAno() {
 		return ano;
 	}
 
-	public String getCategoria() {
+	private String getCategoria() {
 		return categoria;
 	}
 
-	public Number getKilometragem() {
+	private Number getKilometragem() {
 		return kilometragem;
 	}
 
-	public Number getAutonomia() {
+	private Number getAutonomia() {
 		return autonomia;
 	}
 
-	public void setId(Number id) {
+	private void setId(Number id) {
 		this.id = id;
 	}
 
-	public void setModelo(String modelo) {
+	private void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
 
-	public void setAno(String ano) {
+	private void setAno(String ano) {
 		this.ano = ano;
 	}
 
-	public void setCategoria(String categoria) {
+	private void setCategoria(String categoria) {
 		this.categoria = categoria;
 	}
 
-	public void setKilometragem(Number kilometragem) {
+	private void setKilometragem(Number kilometragem) {
 		this.kilometragem = kilometragem;
 	}
 
-	public void setAutonomia(Number autonomia) {
+	private void setAutonomia(Number autonomia) {
 		this.autonomia = autonomia;
 	}
-
-	
 
 }

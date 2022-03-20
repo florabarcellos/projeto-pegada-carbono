@@ -36,60 +36,60 @@ public class Colaborador implements IColaborador {
 
 	}
 
-	public Number getId() {
+	private Number getId() {
 		return id;
-	}
-
-	public void setId(Number id) {
-		this.id = id;
 	}
 
 	public String getNome() {
 		return nome;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getCpf() {
+	private String getCpf() {
 		return cpf;
 	}
 
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-
-	public String getCnh() {
+	private String getCnh() {
 		return cnh;
 	}
 
-	public void setCnh(String cnh) {
-		this.cnh = cnh;
-	}
-
-	public String getCtps() {
+	private String getCtps() {
 		return ctps;
 	}
 
-	public void setCtps(String ctps) {
-		this.ctps = ctps;
-	}
-
-	public String getEndereco() {
+	private String getEndereco() {
 		return endereco;
 	}
 
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
-	}
-
-	public String getTelefone() {
+	private String getTelefone() {
 		return telefone;
 	}
 
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
+	private void setId(Number id) {
+		this.id = id;
 	}
 
+	private void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	private void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
+
+	private void setCnh(String cnh) {
+		this.cnh = cnh;
+	}
+
+	private void setCtps(String ctps) {
+		this.ctps = ctps;
+	}
+
+	private void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	private void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
 }
+	
