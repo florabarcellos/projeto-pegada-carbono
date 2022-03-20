@@ -31,7 +31,7 @@ public class Colaborador implements IColaborador {
 	public String getContactInfo() {
 		String endereco = this.getEndereco();
 		String telefone = this.getTelefone();
-		String contactInfo = String.format("ENDEREÇO: %s, TELEFONE: %s", endereco, telefone);
+		String contactInfo = String.format("ENDEREÃ‡O: %s, TELEFONE: %s", endereco, telefone);
 		return contactInfo;
 
 	}

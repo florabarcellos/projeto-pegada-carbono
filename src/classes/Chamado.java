@@ -24,7 +24,7 @@ public class Chamado implements IChamado {
 		Date data_abertura = this.getData_abertura();
 		
 		
-		String info = String.format("INFORMAÇÕES DO CHAMADO: \n ID: %s \n STATUS: %s \n COLABORADOR: %s \n DATA ABERTURA: %s", id, status, colaborador, data_abertura);
+		String info = String.format("INFORMAÃ‡Ã•ES DO CHAMADO: \n ID: %s \n STATUS: %s \n COLABORADOR: %s \n DATA ABERTURA: %s", id, status, colaborador, data_abertura);
 		return info;
 
 	}
@@ -32,7 +32,7 @@ public class Chamado implements IChamado {
 	@Override
 	public void calcularDistancia() {
 		// TODO Auto-generated method stub
-		// Metodo para implementação futura.
+		// Metodo para implementaÃ§Ã£o futura.
 
 	}
 
