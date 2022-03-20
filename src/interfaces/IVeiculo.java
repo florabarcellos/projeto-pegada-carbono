@@ -1,6 +1,7 @@
-package veiculo;
+package interfaces;
 
 public interface IVeiculo {
-	public abstract void getInfo();
+	
+	public abstract String getInfo();
 	
 }

@@ -1,7 +1,7 @@
-package chamado;
+package interfaces;
 
 public interface IChamado {
-	public abstract void getInfo();
+	public abstract String getInfo();
 	public abstract void calcularDistancia();
 	public abstract void calcularCo2();
 }
