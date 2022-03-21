@@ -18,7 +18,7 @@ public class Chamado implements IChamado {
 
 	@Override
 	public String getInfo() {
-		String id = String.valueOf(this.getId());
+		String id = Integer.toString(this.getId());
 		String status = getStatus();
 		String colaborador = this.colaborador.getNome();
 		Date data_abertura = this.getData_abertura();
@@ -42,7 +42,7 @@ public class Chamado implements IChamado {
 
 	}
 
-	private Number getId() {
+	private short getId() {
 		return id;
 	}
 
@@ -70,7 +70,7 @@ public class Chamado implements IChamado {
 		return concluido;
 	}
 
-	private Number getDistancia() {
+	private int getDistancia() {
 		return distancia;
 	}
 

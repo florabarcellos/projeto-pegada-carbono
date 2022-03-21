@@ -7,8 +7,8 @@ public class Veiculo implements IVeiculo {
 	private String modelo;
 	private String ano;
 	private String categoria;
-	private Number kilometragem;
-	private Number autonomia;
+	private int kilometragem;
+	private int autonomia;
 	
 	@Override
 	public String getInfo() {
@@ -35,11 +35,11 @@ public class Veiculo implements IVeiculo {
 		return categoria;
 	}
 
-	private Number getKilometragem() {
+	private int getKilometragem() {
 		return kilometragem;
 	}
 
-	private Number getAutonomia() {
+	private int getAutonomia() {
 		return autonomia;
 	}
 
@@ -59,11 +59,11 @@ public class Veiculo implements IVeiculo {
 		this.categoria = categoria;
 	}
 
-	private void setKilometragem(Number kilometragem) {
+	private void setKilometragem(int kilometragem) {
 		this.kilometragem = kilometragem;
 	}
 
-	private void setAutonomia(Number autonomia) {
+	private void setAutonomia(int autonomia) {
 		this.autonomia = autonomia;
 	}
 

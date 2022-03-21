@@ -36,7 +36,7 @@ public class Colaborador implements IColaborador {
 
 	}
 
-	private Number getId() {
+	private short getId() {
 		return id;
 	}
 
