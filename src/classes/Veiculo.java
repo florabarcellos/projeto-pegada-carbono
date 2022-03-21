@@ -3,7 +3,7 @@ package classes;
 import interfaces.IVeiculo;
 
 public class Veiculo implements IVeiculo {
-	private Number id;
+	private String id;
 	private String modelo;
 	private String ano;
 	private String categoria;
@@ -12,14 +12,14 @@ public class Veiculo implements IVeiculo {
 	
 	@Override
 	public String getInfo() {
-		String placa = String.valueOf(this.getId());
+		String placa = this.getId();
 		String modelo = this.getModelo();
 		String ano = this.getAno();
 		String info = String.format("PLACA: %s, MODELO: %s, ANO: %s", placa, modelo, ano);
 		return info;
 	}
 
-	private Number getId() {
+	private String getId() {
 		return id;
 	}
 
@@ -43,7 +43,7 @@ public class Veiculo implements IVeiculo {
 		return autonomia;
 	}
 
-	private void setId(Number id) {
+	private void setId(String id) {
 		this.id = id;
 	}
 

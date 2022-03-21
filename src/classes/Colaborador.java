@@ -3,7 +3,7 @@ package classes;
 import interfaces.IColaborador;
 
 public class Colaborador implements IColaborador {
-	private Number id;
+	private short id;
 	private String nome;
 	private String cpf;
 	private String cnh;
@@ -64,7 +64,7 @@ public class Colaborador implements IColaborador {
 		return telefone;
 	}
 
-	private void setId(Number id) {
+	private void setId(short id) {
 		this.id = id;
 	}
 

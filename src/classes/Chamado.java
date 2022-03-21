@@ -5,16 +5,16 @@ import java.util.Date;
 import interfaces.IChamado;
 
 public class Chamado implements IChamado {
-	private Number id;
+	private short id;
 	private String status;
 	private Colaborador colaborador;
 	private Veiculo veiculo;
 	private String endereco;
 	private String detalhes;
 	private Boolean concluido;
-	private Number distancia;
+	private int distancia;
 	private Date data_abertura;
-	private Number co2_emitido;
+	private short co2_emitido;
 
 	@Override
 	public String getInfo() {
@@ -82,7 +82,7 @@ public class Chamado implements IChamado {
 		return co2_emitido;
 	}
 
-	private void setId(Number id) {
+	private void setId(short id) {
 		this.id = id;
 	}
 
@@ -110,7 +110,7 @@ public class Chamado implements IChamado {
 		this.concluido = concluido;
 	}
 
-	private void setDistancia(Number distancia) {
+	private void setDistancia(int distancia) {
 		this.distancia = distancia;
 	}
 
@@ -118,7 +118,7 @@ public class Chamado implements IChamado {
 		this.data_abertura = data_abertura;
 	}
 
-	private void setCo2_emitido(Number co2_emitido) {
+	private void setCo2_emitido(short co2_emitido) {
 		this.co2_emitido = co2_emitido;
 	}
 
